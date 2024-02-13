@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ol {
+        color: blue;
+        font: size 30px;
+    }
+</style>
+<script>
+    // 주석은 각 언너마다, 사용법이 조금씩 다름.
+    // ide 사용시, ctrl + / 를 이용
+    // 클릭시, 경고창을 보여주는 함수 만들기
+    // const btn = document.querySelector('#testbtn');
+    // btn.onclick = function () { alert('Hi') };
+    const btn = document.getElementById('testbtn');
+
+    btn.addEventListener('click', function () {
+        alert('hi');
+    })
+
+    // 코드가 지저분
+</script>
+
+<body>
+    <h1>안녕하세요</h1>
+    <h2>자전거 타기 비유</h2>
+    <h3>자전거 타는 개념,이론,원리</h3>
+    <h1>라이브 서버 테스트</h1>
+    <input id="testbtn" type="button" value="클릭해줘">
+    <button id="testbtn2"> 클릭해줘2</button>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript(js)</li>
+    </ol>
+</body>
+
+</html>
